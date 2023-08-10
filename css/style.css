@@ -1,104 +1,44 @@
-/* .boxes{
-    height: 600px;
-    width: 600px;
-    background-color: blueviolet;
+.container{
+    width: 1170px;
+    margin:0 auto;
+    background-color: yellow;
+}
+.block{
+    width: 370px;
+    height: 450px;
+    background-color: bisque;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-} */
-/* .box-child{
-    height: 150px;
-    width: 150px;
-    background-color: red;
-    margin:20px
+    flex-direction:column;
 }
-.container{
-    width: 1000;
-    background-color: gray;
- 
-} */
-.box-1{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-    text-align: center;
-    font-size: 50px;
-    margin:10px
-}
-.box-2{
-    height: 100px;
-    width: 100px;
-    background-color:red;
-    text-align: center;
-    font-size: 50px;
-    margin:10px
-}
-.box-3{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    text-align: center;
-    font-size: 50px;
-    margin:10px
-}
-.box-4{
-    height: 100px;
-    width: 100px;
-    background-color:gray;
-    text-align: center;
-    font-size: 50px;
-    margin:10px
-}
-.box-5{
-    height: 100px;
-    width: 100px;
-    background-color:green;
-    text-align: center;
-    font-size: 50px;
-    margin:10px
-}
-.boxes{
-    width: 1200px;
-    height:auto;
+.block p {
+    width:328px ;
     background-color: brown;
+    text-align: center;
+}
+.block a {
+    width: 131px;
+    height: 45;
+    background-color: aqua;
+    text-decoration:none;
+    border-radius: 23px;
     display: flex;
-    justify-content:space-evenly;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
-/* section-2 */
-.container-1{
-    width: 1400px;
-    margin:0 auto;
-    background-color:gray;
-    border-radius: 50px;
+.line1{
+    display:flex;
+    justify-content: space-between;
 }
-.flex-wraper{
-    display: flex;
-    justify-content:space-around
+.line2{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
 }
-.img-1{
-    height: 600px;
-    width: auto;
-    border-radius: 50px;
-    background-color: aqua;
-   
+.title-block{
+    width: 712px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    text-align: center;
 }
-.img-2{
-    height: 600px;
-  
-    border-radius: 50px;
-    background-color: aqua;
-}
-.img-3{
-    height: 600px;
-    width: auto;
-    border-radius: 50px;
-    background-color: aqua;
-}
-.img{
-    border-radius: 50px;
-}
-.img-1 p {width: 200px;}
-.img-2 p {width: 200px;}
-.img-3 p {width: 200px;}
