@@ -1,7 +1,8 @@
 .container{
     width: 1170px;
     margin:0 auto;
-    background-color: yellow;
+    background-color: grey;
+    border-radius: 25px;
 }
 .block{
     width: 370px;
@@ -11,6 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction:column;
+    border-radius: 25px;
 }
 .block p {
     width:328px ;
@@ -19,7 +21,7 @@
 }
 .block a {
     width: 131px;
-    height: 45;
+    height: 45px;
     background-color: aqua;
     text-decoration:none;
     border-radius: 23px;
@@ -30,15 +32,70 @@
 .line1{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.line2{
+/* .line2{
     display:flex;
     justify-content: space-between;
     margin-top: 60px;
-}
+} */
 .title-block{
     width: 712px;
     margin: 0 auto;
     background-color: blueviolet;
     text-align: center;
+    border-radius:25px;
+}
+.color01{
+    background-color: aquamarine;
+}
+.block img {
+    height: 200px;
+    width: 200px;
+}
+/* pseudo klases*/
+.block:nth-child(1){
+    background-color: orange;
+}
+.block:nth-child(2){
+    background-color: red;
+}
+.block:nth-child(3){
+    background-color: aqua;
+}
+.block:nth-child(4){
+    background-color: green;
+}
+.block:nth-child(5){
+    background-color: greenyellow;
+}
+.block:nth-child(6){
+    background-color: blue;
+}
+.block:nth-child(3) h3 {
+    font-size: 30px;
+    color: #fff;
+}
+.block:nth-child(3) a {
+    background-color: black;
+    color: #fff;
+}
+.block:nth-child(4),
+.block:nth-child(5),
+.block:nth-child(6){
+    margin-top: 60px;
+}
+/* icone */
+.icon i {
+    font-size: 20px;
+    position: relative;
+    transition: all 0.5s;
+}
+.fa-facebook:hover{
+    font-size: 25px;
+    color: blue;
+}
+.fa-youtube:hover{
+    font-size: 25px;
+    color: red;
 }
